@@ -26,6 +26,11 @@ export const menuitems = [
         className: 'nav-links'
     },
     {
+        title:'Contact-Us',
+        url:'Contact-Us',
+        className:'nav-links'
+    },
+    {
         title: 'Log In',
         url: 'Log-In',
         className: 'nav-links-signup'

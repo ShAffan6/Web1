@@ -10,14 +10,14 @@
 
 
 .fa-react{
-    max-width:60px;
+    max-width:50px;
     height:auto;
     
 }
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(7,auto);
+    grid-template-columns: repeat(8,auto);
     grid-gap:10px;
     list-style: none;
     text-align:center;
@@ -81,7 +81,7 @@
         width: 50%;
         height: 820px;
         position: absolute;
-        top: 80px;
+        top: 173px;
         left: -100%;
         opacity: 1;
         transition: all 0.5ease;
@@ -90,7 +90,7 @@
 
     .nav-menu.active{
         background: #6668f4;
-        left: 0;
+        left: 50%;
         opacity: 1;
         transition: all 0.5ease;
         z-index: 1;
